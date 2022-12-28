@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #0D0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INDEX */
+
+#container{
+    width: 99.9%;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+    /* border: 1px solid red; */
+    
+}
+
+.title{
+    text-align: center;
+    color: #8C3E62;
+    letter-spacing: 5px;
+    font-family: fangsong;
+    border: 5px solid #8C3E62;
+    background-color: #390D02;
+}
+
+.listas{
+    background-color: #390D02;
+    font-size: 20px;
+    /* padding: 5px; */
+
+}
+
+
+.listas ul li{
+    position: relative;
+    /* text-align: center; */
+    list-style: none;
+    display:inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+    bottom: 0px;
+
+    
+}
+
+.listas ul li a{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    color: #F27777;
+    bottom: 5px;
+}
+
+.listas ul li a:hover{
+    color: #8C3E62;
+}
+
+
+.infoprincipal{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infoprincipal h2{
+    color: #8C3E62;
+}
+
+.infoprincipal h4{
+    color: #C1CED9;
+}
+
+
+.infoprincipal p{
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    padding: 0% 20%;
+}
+
+.fondocontacto{
+    background-color: #89888C;
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.fondocontacto a img{
+    width: 80px;
+    height: 80px;
+    top: 5px;
+}
+
+
+.fondocontacto img{
+    position: relative;
+    width: 50px;
+    display: inline;
+    border: solid 2px black;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+}
+
+/* RESEÑAS RESEÑAS RESEÑAS RESEÑAS RESEÑAS */
+
+#container2{
+    width: 99.9%;
+    
+}
+
+.title{
+    text-align: center;
+    color: #8C3E62;
+    letter-spacing: 5px;
+    font-family: fangsong;
+    border: 5px solid #8C3E62;
+    background-color: #390D02;
+}
+
+.listas{
+    background-color: #390D02;
+    font-size: 20px;
+    /* padding: 5px; */
+
+}
+
+
+.listas ul li{
+    position: relative;
+    /* text-align: center; */
+    list-style: none;
+    display:inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+    bottom: 0px;
+
+    
+}
+
+.listas ul li a{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    color: #F27777;
+    bottom: 5px;
+}
+
+.listas ul li a:hover{
+    color: #8C3E62;
+}
+
+
+.infoprincipal{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagenes{
+    background-color: #8C3E62;
+    text-align: center;
+}
+
+.imagenes img{
+    left: 30px;
+    position: relative;
+}
+
+.imjuntas img{
+    width: 45%;
+    position: center;
+}
+
+.textofinal{
+
+    position: relative;
+    text-align: center;
+}
+
+
+/* VIDEOS VIDEOS VIDEOS VIDEOS VIDEOS VIDEOS  */
+
+#container3{
+    width: 99.9%;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+    /* border: 1px solid red; */
+    
+}
+
+.listas{
+    background-color: #390D02;
+    font-size: 20px;
+    /* padding: 5px; */
+
+}
+
+
+.listas ul li{
+    position: relative;
+    /* text-align: center; */
+    list-style: none;
+    display:inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+    bottom: 0px;
+}
+
+.listas ul li a{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    color: #F27777;
+    bottom: 5px;
+}
+
+.listas ul li a:hover{
+    color: #8C3E62;
+}
+
+.listas ul h2 li a p{
+    color: pink;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.listas ul h2 li a p:hover{
+    color: red;
+}
+
+.video1 h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.video1 h1 a:hover{
+    color: red;
+}
+
+.video1 iframe{
+    width: 25%;
+    top: 5px;
+    left: 70px;
+    padding: 50px 50px;
+    position: relative;
+    display: inline;
+    border: solid 2px black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video2 h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.video2 iframe{
+    width: 25%;
+    top: 15px;
+    left: 70px;
+    padding: 50px 50px;
+    position: relative;
+    display: inline;
+    border: solid 2px black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video2 h1 a:hover{
+    color: red;
+}
+
+@media (max-width: 719px){
+}
+
+/* EPITAFIOS EPITAFIOS EPITAFIOS EPITAFIOS EPITAFIOS  */
+
+#epitafios{
+    background-color: #0D0D0D;
+    padding: 0 0 150px 0;
+}
+
+.title{
+    text-align: center;
+    color: #8C3E62;
+    letter-spacing: 5px;
+    font-family: fangsong;
+    border: 5px solid #8C3E62;
+    background-color: #390D02;
+}
+
+.listas{
+    background-color: #390D02;
+    font-size: 20px;
+    /* padding: 5px; */
+
+}
+
+
+.listas ul li{
+    position: relative;
+    /* text-align: center; */
+    list-style: none;
+    display:inline-block;
+    padding: 0px 10px;
+    font-size: 18px;
+    bottom: 0px;
+}
+
+.listas ul li a{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    color: #F27777;
+    bottom: 5px;
+}
+
+.listas ul li a:hover{
+    color: #8C3E62;
+}
+
+.listas ul h2 li a p{
+    color: pink;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.listas ul h2 li a p:hover{
+    color: red;
+}
+
+.botones{
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;}
+
+.epitafio{
+    background-color: #F27777;
+    border-radius: 20px;
+    border: 5px solid #8C3E62;
+    position:initial;
+    width: auto;
+    /* padding: 50px 250px 50px 250px; */
+    display:center;
+    text-align: center;
+    
+}
+
+
+.epitafio h4{
+    position: relative;
+    text-align: center;
+    /* padding: 50px 15%; */
+    font-size: 22px;
+    color: #2E2140;
+}
+
+.epitafio img{
+    /* left: 0%; */
+    position: relative;
+    /* padding: 0px 31%; */
+    width:30%;
+}
+/* INSCRIBITE INSCRIBITE INSCRIBITE INSCRIBITE INSCRIBITE  */
+
+.espacio{
+    padding: 25px 25px;
+}
+
+#contacto{
+    color: white;
+    display: contents;
+    /* width: 50%; */
+    /* height: 30%; */
+    /* border: #0D0D0D; */
+    /* border-radius: 20px; */
+    /* border: 5px solid #8C3E62; */
+    /* padding: 50px 50px 50px 50px; */
+    
+}
+
+.inpu input{
+    /* text-align: center; */
+    position: relative;
+    /* width: 500px; */
+    padding: 2px;
+}
+
+.enviar{
+    width: auto;
+    position: relative;
+    text-align: left;
+    height: 0%;
+    size: 500px;
+    height: 500px;
+    width: 500px;
+}
+
+.volveralinicio{
+    text-align: center;
+    width: center;
+    height: 710px;
+    
+}
